@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--using semantic tags-->
+    <header>
+      <h1>My first html project</h1>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#html">Learning html</a>
+          </li>
+          <li>
+            <a href="#project">semantic tag session</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <!--ends here-->
+
+    <!--add a video/audio to the webpage-->
+    <h2>Trying out a video tag</h2>
+    <video controls src="love is crazy.mp4" width="500"></video>
+    <hr />
+
+    <!--use local links,lists or tables-->
+
+    <h4>ALL HAVE LEARNT</h4>
+    <table bgcolor="black" width="700">
+      <tr bgcolor="white">
+        <th width="200">MONDAY</th>
+        <th width="200">TUESDAY</th>
+        <th width="200">WEDNESSDAY</th>
+        <th width="200">THURSDAY</th>
+        <th width="200">FRIDAY</th>
+      </tr>
+      <tr bgcolor="grey" align="center">
+        <td>welcome & environmental setup</td>
+        <td>intro to web</td>
+        <td>integration and version control</td>
+        <td>git and github</td>
+        <td>html</td>
+      </tr>
+    </table>
+    <hr />
+    <!--using the form tags-->
+    <!--did't use the div tag because the intruction was to use the form tag-->
+    <form>
+      <h3>purchase form</h3>
+      <label for="firstname">first name:</label>
+      <input type="text" id="fname" name="fname" />
+    </form>
+    <br />
+    <form>
+      <label for="lastname">last name:</label>
+      <input type="text" id="lname" name="lname" />
+    </form>
+    <br />
+    <form>
+      <label for="password">password</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        maxlength="12"
+        placeholder="xxxxxxxxxxxx"
+      />
+    </form>
+    <br />
+    <form>
+      <label for="email">email:</label>
+      <input type="email" id="email" name="email" />
+    </form>
+    <br />
+    <form>
+      <label for="phone">phone#:</label>
+      <input type="tel" id="phone" name="phone" placeholder="(123)-456-7890" />
+    </form>
+    <br />
+    <form>
+      <label for="bdate">bdate</label>
+      <input type="date" id="bdate" name="bdate" />
+    </form>
+    <br />
+    <form>
+      <label for="Mr.">Mr.</label>
+      <input type="radio" id="Mr." name="title" value="Mr." />
+
+      <label for="Mrs.">Mrs.</label>
+      <input type="radio" id="Mrs." name="title" value="Mrs." />
+
+      <label for="phd">Phd</label>
+      <input type="radio" id="phd" name="title" value="phd" />
+    </form>
+    <br />
+    <form>
+      <label for="payment">payment:</label>
+      <select name="payment" id="payment">
+        <option value="mastercard">mastercard</option>
+        <option value="visa">visa</option>
+        <option value="giftcard">giftcard</option>
+      </select>
+    </form>
+    <br />
+    <form>
+      <label for="filled">filled</label>
+      <input type="checkbox" id="filled" name="filled" />
+    </form>
+    <br />
+    <form>
+      <input type="reset" />
+    </form>
+    <br />
+    <form>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
